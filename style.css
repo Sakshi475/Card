@@ -1,0 +1,94 @@
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 8px 16px;
+    font-style: normal;
+}
+
+/* Profile Card Image Styling */
+.profile-card img {
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    padding-top: 60px;
+    margin-left: 30px;
+}
+
+/* About Section Styling */
+.about {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+/* About Container (Flex Layout) */
+.about-container {
+    display: flex;
+    align-items: center; /* Vertically centers the items */
+    justify-content: center;
+    gap: 30px; /* Adds space between the image and the description */
+    max-width: 1200px; /* Optional: Limiting the width of the container */
+    margin: 0 auto; /* Centers the content */
+}
+
+/* About Image Styling */
+.about-image img {
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+}
+
+/* About Description Styling */
+.about-description {
+    max-width: 600px; /* Limits the width of the text container */
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between the paragraph and the button */
+}
+
+/* Title Styling */
+.about-description h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* Paragraph Styling */
+.about-description p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Button Styling */
+.button {
+    color: rgb(12, 0, 0);
+    background-color: #f9f9f9;
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+
